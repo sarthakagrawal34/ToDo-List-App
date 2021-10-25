@@ -1,0 +1,25 @@
+<html lang="en">
+    <head>
+        <!-- The "meta" is info in the head. charset = character set utf-8 is character encoding capable of encoding all characters on the web. 
+        It replaced ascii as the default character encoding. 
+        Because it is the default all modern browsers will use utf-8 without being explicitly told to do so
+        -->
+        <meta charset="UTF-8">
+        <!--  This means that the browser will (probably) render the width of the page at the width of its own screen. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title as acc to the chages for that we use locals -->
+        <title>
+            <%= locals.title %>
+        </title>
+        <!-- font-awesome link for using font-awesome icon in the project -->
+        <script src="https://kit.fontawesome.com/514d9df4a5.js" crossorigin="anonymous"></script>
+        <!-- linking the static css file in assets folder -->
+        <link rel="stylesheet" href="/css/layout.css"> <!-- in href it is automatically looking into assets folder as we use static in index.js-->
+    </head>
+    <body>
+
+        <!-- Variable Content that we want to show -->
+        <%- body %>
+    <%- script %>
+    </body>
+</html>

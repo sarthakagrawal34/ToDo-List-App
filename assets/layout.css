@@ -1,0 +1,170 @@
+/* body style */
+body {
+    background-color: #8d7979e0;
+    color: rgb(63, 62, 62);
+    background: -webkit-linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    background: -moz-linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    background: -ms-linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    background: -o-linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    background: linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    font-family: sans-serif;
+}
+
+#content{
+    width:70%;
+    background-color: rgb(15, 139, 139);
+    margin-left: 11vw;
+}
+/* header styling */
+header{
+    text-align: center;
+}
+.header-container {
+    background-color: white;
+    height: 6vh;
+}
+/* description styling */
+.desc-container{
+    background-color: blueviolet;
+    height: 10vh;
+}
+/* category styling */
+.category-container{
+    background-color:#288de0;
+    height: 10vh;
+    display: inline-block;
+    width: 33vw;
+    margin-top: 1.6vh;
+    margin-right: -3px;
+}
+.category-content{
+    height:6.5vh;
+    background-color: rgb(241, 222, 198);
+    margin-top: 3.5vh;
+}
+/* date styling */
+.date-container{
+    background-color: rgb(145, 212, 78);
+    height: 10vh;
+    display: inline-block;
+    width: 35.42vw;
+}
+.date-content{
+    height:6.5vh;
+    background-color: rgb(241, 222, 198);
+    margin-top: 3.54vh;
+}
+
+.date-content h2{
+    margin-top: 3vh;
+}
+/* input styling specifically for input tag */
+.input{
+    margin-top: -3vh;
+}
+/* todo-list styling */
+#todo-list-container{
+    background-color: rgb(163, 42, 42);
+    height: auto;
+    width: 100%;
+}
+
+#todo-list-container ul
+{
+    padding: 0;
+}
+.todo{
+    background-color:rgb(214, 180, 135);
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details{
+    background-color: #ebe8d1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin-top: 0.55vh;
+}
+
+.details p{
+    display:flex;
+    list-style: square;
+}
+
+
+.DESC-CONTAINER{
+    display:flex;
+    height: auto;
+    width:100%;
+    background-color:#e2e1cf;
+    color:grey;
+    flex-direction: column;
+}
+.CATEGORY-CONTAINER{
+    display:flex;
+    background-color: rgb(240, 122, 80);
+    height: 10vh;
+    width:10%;
+    
+}
+.CATEGORY-CONTAINER {
+    display: flex;
+    background-color: #f57f17;
+    height: 6vh;
+    width: 10%;
+    margin-top: 3vh;
+    margin-right: 1vw;
+    border-radius: 6%;
+}
+.CATEGORY-CONTAINER>div {
+    background-color: #F57F17;
+    width: 51%;
+    height: 32%;
+    margin-left: 1.71vw;
+    margin-top: 1.71vh;
+    margin-right: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+.DATE-CONTAINER{
+    display:flex;
+    flex-direction:row;
+    height: 35%;
+    width:7vw;
+    background-color:#fffde7;
+    margin-left: 0.1vw;
+    margin-top: 0vh;
+}
+.DATE-CONTAINER p{
+    word-spacing: normal;
+}
+
+/* ----------Buttons Styling------- */
+
+/* delete-button styling*/
+.details .delete-button{
+    width:20%;
+    text-align: center;
+    display: flex;
+}
+
+.button{
+    margin-left: 24.8vw;
+}
+.button button {
+    background-color: #b11e1e;
+    border-style: none;
+    height: 8vh;
+    width: 16vw;
+    margin-top: 1.2vh;
+}
+
+
+button:hover{
+    background-color: rgb(231, 201, 156);
+    
+}
