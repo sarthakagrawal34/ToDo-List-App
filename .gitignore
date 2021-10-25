@@ -1,1 +1,2 @@
+# folders which we want to ignored by github as it containes unuseful information and is a very large package
 node_modules/
