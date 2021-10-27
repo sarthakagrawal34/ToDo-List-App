@@ -14,10 +14,10 @@ var bodyParser = require('body-parser');
 //Requiring the ejs layout library
 const expressLayouts = require('express-ejs-layouts');
 
-// require mongoose
+// require mongoose for connection to the server
 const db= require('./config/mongoose');
 
-// express.urlencoded() function is a built-in middleware function in Express.
+// express.urlencoded() function is a built-in middleware function in Express to read the post request
 app.use(express.urlencoded());
 // accessing the static files
 app.use(express.static('assets'));
@@ -38,15 +38,6 @@ app.set('view engine', 'ejs');
 
 //Set the path for views folder
 app.set('views', './views');
-
-
-
-
-
-
-
-
-
 
 
 

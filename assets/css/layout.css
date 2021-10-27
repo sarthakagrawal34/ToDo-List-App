@@ -1,0 +1,192 @@
+/* body style */
+body {
+    background-color:royalblue;
+    background: -webkit-linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    background: -moz-linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    background: -ms-linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    background: -o-linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    background: linear-gradient(90deg,#2BC0E4 10%, #EAECC6 90%);
+    font-family: sans-serif;
+}
+
+/* Styling the content of the website */
+#content{
+    background-color:#ffab00;
+    margin-left:20%;
+    width:60%;
+    border:5px solid orangered;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Styling heading of the website */
+.header-container{
+    position:'absolute';
+    background-color:black;
+    color:orange;
+    text-align: center;
+    font-style: normal;
+    font-family: cursive;
+}
+
+/* Styling the description part of the app */
+#description{
+    position:'absolute';
+    background-color: whitesmoke;
+}
+#description label{
+    font-family: monospace;
+    font-size:30px;
+    font-weight: bolder;
+}
+
+#description input{
+    width:100%;
+    font-size:15px;
+}
+
+/* Styling the category form and date form */
+/* I have used flex for this portion */
+.middle{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:30%;
+}
+.middle label{
+    margin: 1px 50px;
+    font-weight: bolder;
+}
+/* Styling for category part */
+.category-container
+{
+    width:50%;
+    background-color: yellow;
+    display: flex;
+}
+
+
+/* Styling Date container */
+.date-container
+{
+    width:50%;
+    background-color: yellowgreen;
+    display: flex;
+}
+
+
+/* Styling create and delete button */
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn{
+    background-color: #391eb4;
+    color: white;
+    border-style: none;
+    height: 10vh;
+    width: 14vw;
+    cursor: pointer;
+    margin-top: 1.2vh;
+    margin-bottom: 1.2vh;
+    border-radius: 20px;
+    word-spacing: 5px;
+    font-size: large;
+}
+
+button:hover{
+    background-color: rgb(173, 211, 255);   
+}
+
+/* -------------------Here The styling of form section is completed------------------------------------ */
+
+/* todo-list styling */
+/* It is the part where the todo action is shown and from here we can choose the tasks to be deleted */
+#todo-list-container{
+    margin-left: 15%;
+    height: auto;
+    width: 70%;
+}
+
+#todo-list-container ul
+{
+    padding: 5px;
+}
+
+/* Styling of the todo section */
+.todo{
+    background-color:orangered;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling of details off todo section */
+.details{
+    background-color: #f5f5f5;
+    height: auto;
+    width: 98%;
+    display: flex;
+    margin-top: 0.5vh;
+}
+.details p{
+    display:flex;
+}
+
+/* Styling description section of todo */
+.description-todo {
+    display:flex;
+    height: auto;
+    width:100%;
+    flex-direction: column;
+}
+.description-todo p{
+    margin-left: 3px;
+    color: black;
+    font-weight: bolder;
+}
+
+/* Styling date section of todo flex coloumn */
+.date-container-todo{
+    display:flex;
+    flex-direction:row;
+    height: 35%;
+    width:10vw;
+    margin-left: 0.1vw;
+    margin-top: 0vh;
+}
+.date-container-todo i{
+    color: gray;
+    font-weight: 600;
+}
+.date-container-todo span{
+    color: gray;
+    font-weight: 600;
+}
+
+/* Styling category section of todo */
+.category-container-todo {
+    display: flex;
+    background-color: #fcef38;
+    height: 8vh;
+    width: 10%;
+    margin-top: 3vh;
+    margin-right: 1vw;
+    border-radius: 6%;
+}
+.category-container-todo div{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: auto 5px;
+    color: rgb(32, 26, 26);
+    text-transform:uppercase;
+    font-weight: bolder;
+}
+
+/* -----------------------------This Completes the Styling of ejs file-------------------------------------- */
